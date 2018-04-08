@@ -1,0 +1,338 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TestSample.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:TestSample.Fakes.ShimCascadeStyleSheetFileProcessor">
+            <summary>Shim type of TestSample.CascadeStyleSheetFileProcessor</summary>
+        </member>
+        <member name="M:TestSample.Fakes.ShimCascadeStyleSheetFileProcessor.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:TestSample.Fakes.ShimCascadeStyleSheetFileProcessor.#ctor(TestSample.CascadeStyleSheetFileProcessor)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:TestSample.Fakes.ShimCascadeStyleSheetFileProcessor.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:TestSample.Fakes.ShimCascadeStyleSheetFileProcessor.AllInstances.NeedToProcess">
+            <summary>Sets the shim of CascadeStyleSheetFileProcessor.NeedToProcess()</summary>
+        </member>
+        <member name="P:TestSample.Fakes.ShimCascadeStyleSheetFileProcessor.AllInstances.ProcessFileString">
+            <summary>Sets the shim of CascadeStyleSheetFileProcessor.ProcessFile(String outPutFilePath)</summary>
+        </member>
+        <member name="M:TestSample.Fakes.ShimCascadeStyleSheetFileProcessor.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:TestSample.Fakes.ShimCascadeStyleSheetFileProcessor.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:TestSample.Fakes.ShimCascadeStyleSheetFileProcessor.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:TestSample.Fakes.ShimCascadeStyleSheetFileProcessor.Constructor">
+            <summary>Sets the shim of CascadeStyleSheetFileProcessor.CascadeStyleSheetFileProcessor()</summary>
+        </member>
+        <member name="P:TestSample.Fakes.ShimCascadeStyleSheetFileProcessor.NeedToProcess">
+            <summary>Sets the shim of CascadeStyleSheetFileProcessor.NeedToProcess()</summary>
+        </member>
+        <member name="P:TestSample.Fakes.ShimCascadeStyleSheetFileProcessor.ProcessFileString">
+            <summary>Sets the shim of CascadeStyleSheetFileProcessor.ProcessFile(String outPutFilePath)</summary>
+        </member>
+        <member name="T:TestSample.Fakes.ShimFileProcessManager">
+            <summary>Shim type of TestSample.FileProcessManager</summary>
+        </member>
+        <member name="M:TestSample.Fakes.ShimFileProcessManager.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:TestSample.Fakes.ShimFileProcessManager.#ctor(TestSample.FileProcessManager)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:TestSample.Fakes.ShimFileProcessManager.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:TestSample.Fakes.ShimFileProcessManager.AllInstances.FileDirectoryGet">
+            <summary>Sets the shim of FileProcessManager.get_FileDirectory()</summary>
+        </member>
+        <member name="P:TestSample.Fakes.ShimFileProcessManager.AllInstances.FileDirectorySetString">
+            <summary>Sets the shim of FileProcessManager.set_FileDirectory(String value)</summary>
+        </member>
+        <member name="P:TestSample.Fakes.ShimFileProcessManager.AllInstances.GetFiles">
+            <summary>Sets the shim of FileProcessManager.GetFiles()</summary>
+        </member>
+        <member name="P:TestSample.Fakes.ShimFileProcessManager.AllInstances.OutputFilePathGet">
+            <summary>Sets the shim of FileProcessManager.get_OutputFilePath()</summary>
+        </member>
+        <member name="P:TestSample.Fakes.ShimFileProcessManager.AllInstances.OutputFilePathSetString">
+            <summary>Sets the shim of FileProcessManager.set_OutputFilePath(String value)</summary>
+        </member>
+        <member name="P:TestSample.Fakes.ShimFileProcessManager.AllInstances.WriteToFiles">
+            <summary>Sets the shim of FileProcessManager.WriteToFiles()</summary>
+        </member>
+        <member name="M:TestSample.Fakes.ShimFileProcessManager.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:TestSample.Fakes.ShimFileProcessManager.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:TestSample.Fakes.ShimFileProcessManager.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:TestSample.Fakes.ShimFileProcessManager.Bind(TestSample.IFileProcessManager)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:TestSample.Fakes.ShimFileProcessManager.ConstructorFileProcessorArray">
+            <summary>Sets the shim of FileProcessManager.FileProcessManager(FileProcessor[] fileProcessors)</summary>
+        </member>
+        <member name="P:TestSample.Fakes.ShimFileProcessManager.FileDirectoryGet">
+            <summary>Sets the shim of FileProcessManager.get_FileDirectory()</summary>
+        </member>
+        <member name="P:TestSample.Fakes.ShimFileProcessManager.FileDirectorySetString">
+            <summary>Sets the shim of FileProcessManager.set_FileDirectory(String value)</summary>
+        </member>
+        <member name="P:TestSample.Fakes.ShimFileProcessManager.GetFiles">
+            <summary>Sets the shim of FileProcessManager.GetFiles()</summary>
+        </member>
+        <member name="P:TestSample.Fakes.ShimFileProcessManager.OutputFilePathGet">
+            <summary>Sets the shim of FileProcessManager.get_OutputFilePath()</summary>
+        </member>
+        <member name="P:TestSample.Fakes.ShimFileProcessManager.OutputFilePathSetString">
+            <summary>Sets the shim of FileProcessManager.set_OutputFilePath(String value)</summary>
+        </member>
+        <member name="P:TestSample.Fakes.ShimFileProcessManager.WriteToFiles">
+            <summary>Sets the shim of FileProcessManager.WriteToFiles()</summary>
+        </member>
+        <member name="T:TestSample.Fakes.ShimFileProcessor">
+            <summary>Shim type of TestSample.FileProcessor</summary>
+        </member>
+        <member name="M:TestSample.Fakes.ShimFileProcessor.#ctor(TestSample.FileProcessor)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:TestSample.Fakes.ShimFileProcessor.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:TestSample.Fakes.ShimFileProcessor.AllInstances.FilesGet">
+            <summary>Sets the shim of FileProcessor.get_Files()</summary>
+        </member>
+        <member name="P:TestSample.Fakes.ShimFileProcessor.AllInstances.FilesSetListOfString">
+            <summary>Sets the shim of FileProcessor.set_Files(List`1&lt;String&gt; value)</summary>
+        </member>
+        <member name="P:TestSample.Fakes.ShimFileProcessor.AllInstances.ReadFileDataString">
+            <summary>Sets the shim of FileProcessor.ReadFileData(String file)</summary>
+        </member>
+        <member name="P:TestSample.Fakes.ShimFileProcessor.AllInstances.SetFilesTobeProcessedString">
+            <summary>Sets the shim of FileProcessor.SetFilesTobeProcessed(String extension)</summary>
+        </member>
+        <member name="P:TestSample.Fakes.ShimFileProcessor.AllInstances.WriteToOutputFileStringString">
+            <summary>Sets the shim of FileProcessor.WriteToOutputFile(String outputResultFilePath, String all)</summary>
+        </member>
+        <member name="M:TestSample.Fakes.ShimFileProcessor.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:TestSample.Fakes.ShimFileProcessor.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:TestSample.Fakes.ShimFileProcessor.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:TestSample.Fakes.ShimFileProcessor.Constructor">
+            <summary>Sets the shim of FileProcessor.FileProcessor()</summary>
+        </member>
+        <member name="P:TestSample.Fakes.ShimFileProcessor.FilesGet">
+            <summary>Sets the shim of FileProcessor.get_Files()</summary>
+        </member>
+        <member name="P:TestSample.Fakes.ShimFileProcessor.FilesSetListOfString">
+            <summary>Sets the shim of FileProcessor.set_Files(List`1&lt;String&gt; value)</summary>
+        </member>
+        <member name="P:TestSample.Fakes.ShimFileProcessor.ReadFileDataString">
+            <summary>Sets the shim of FileProcessor.ReadFileData(String file)</summary>
+        </member>
+        <member name="P:TestSample.Fakes.ShimFileProcessor.SetFilesTobeProcessedString">
+            <summary>Sets the shim of FileProcessor.SetFilesTobeProcessed(String extension)</summary>
+        </member>
+        <member name="P:TestSample.Fakes.ShimFileProcessor.WriteToOutputFileStringString">
+            <summary>Sets the shim of FileProcessor.WriteToOutputFile(String outputResultFilePath, String all)</summary>
+        </member>
+        <member name="T:TestSample.Fakes.ShimJavaScriptFileProcessor">
+            <summary>Shim type of TestSample.JavaScriptFileProcessor</summary>
+        </member>
+        <member name="M:TestSample.Fakes.ShimJavaScriptFileProcessor.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:TestSample.Fakes.ShimJavaScriptFileProcessor.#ctor(TestSample.JavaScriptFileProcessor)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:TestSample.Fakes.ShimJavaScriptFileProcessor.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:TestSample.Fakes.ShimJavaScriptFileProcessor.AllInstances.NeedToProcess">
+            <summary>Sets the shim of JavaScriptFileProcessor.NeedToProcess()</summary>
+        </member>
+        <member name="P:TestSample.Fakes.ShimJavaScriptFileProcessor.AllInstances.ProcessFileString">
+            <summary>Sets the shim of JavaScriptFileProcessor.ProcessFile(String outPutFilePath)</summary>
+        </member>
+        <member name="M:TestSample.Fakes.ShimJavaScriptFileProcessor.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:TestSample.Fakes.ShimJavaScriptFileProcessor.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:TestSample.Fakes.ShimJavaScriptFileProcessor.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:TestSample.Fakes.ShimJavaScriptFileProcessor.Constructor">
+            <summary>Sets the shim of JavaScriptFileProcessor.JavaScriptFileProcessor()</summary>
+        </member>
+        <member name="P:TestSample.Fakes.ShimJavaScriptFileProcessor.NeedToProcess">
+            <summary>Sets the shim of JavaScriptFileProcessor.NeedToProcess()</summary>
+        </member>
+        <member name="P:TestSample.Fakes.ShimJavaScriptFileProcessor.ProcessFileString">
+            <summary>Sets the shim of JavaScriptFileProcessor.ProcessFile(String outPutFilePath)</summary>
+        </member>
+        <member name="T:TestSample.Fakes.StubCascadeStyleSheetFileProcessor">
+            <summary>Stub type of TestSample.CascadeStyleSheetFileProcessor</summary>
+        </member>
+        <member name="M:TestSample.Fakes.StubCascadeStyleSheetFileProcessor.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:TestSample.Fakes.StubCascadeStyleSheetFileProcessor.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:TestSample.Fakes.StubCascadeStyleSheetFileProcessor.InitializeStub">
+            <summary>Initializes a new instance of type StubCascadeStyleSheetFileProcessor</summary>
+        </member>
+        <member name="P:TestSample.Fakes.StubCascadeStyleSheetFileProcessor.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:TestSample.Fakes.StubCascadeStyleSheetFileProcessor.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="M:TestSample.Fakes.StubCascadeStyleSheetFileProcessor.NeedToProcess">
+            <summary>Sets the stub of CascadeStyleSheetFileProcessor.NeedToProcess()</summary>
+        </member>
+        <member name="F:TestSample.Fakes.StubCascadeStyleSheetFileProcessor.NeedToProcess01">
+            <summary>Sets the stub of CascadeStyleSheetFileProcessor.NeedToProcess()</summary>
+        </member>
+        <member name="M:TestSample.Fakes.StubCascadeStyleSheetFileProcessor.ProcessFile(System.String)">
+            <summary>Sets the stub of CascadeStyleSheetFileProcessor.ProcessFile(String outPutFilePath)</summary>
+        </member>
+        <member name="F:TestSample.Fakes.StubCascadeStyleSheetFileProcessor.ProcessFileString">
+            <summary>Sets the stub of CascadeStyleSheetFileProcessor.ProcessFile(String outPutFilePath)</summary>
+        </member>
+        <member name="T:TestSample.Fakes.StubFileProcessManager">
+            <summary>Stub type of TestSample.FileProcessManager</summary>
+        </member>
+        <member name="M:TestSample.Fakes.StubFileProcessManager.#ctor(TestSample.FileProcessor[])">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:TestSample.Fakes.StubFileProcessManager.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:TestSample.Fakes.StubFileProcessManager.InitializeStub">
+            <summary>Initializes a new instance of type StubFileProcessManager</summary>
+        </member>
+        <member name="P:TestSample.Fakes.StubFileProcessManager.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:TestSample.Fakes.StubFileProcessManager.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:TestSample.Fakes.StubFileProcessor">
+            <summary>Stub type of TestSample.FileProcessor</summary>
+        </member>
+        <member name="M:TestSample.Fakes.StubFileProcessor.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:TestSample.Fakes.StubFileProcessor.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:TestSample.Fakes.StubFileProcessor.InitializeStub">
+            <summary>Initializes a new instance of type StubFileProcessor</summary>
+        </member>
+        <member name="P:TestSample.Fakes.StubFileProcessor.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:TestSample.Fakes.StubFileProcessor.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="M:TestSample.Fakes.StubFileProcessor.NeedToProcess">
+            <summary>Sets the stub of FileProcessor.NeedToProcess()</summary>
+        </member>
+        <member name="F:TestSample.Fakes.StubFileProcessor.NeedToProcess01">
+            <summary>Sets the stub of FileProcessor.NeedToProcess()</summary>
+        </member>
+        <member name="M:TestSample.Fakes.StubFileProcessor.ProcessFile(System.String)">
+            <summary>Sets the stub of FileProcessor.ProcessFile(String outPutFilePath)</summary>
+        </member>
+        <member name="F:TestSample.Fakes.StubFileProcessor.ProcessFileString">
+            <summary>Sets the stub of FileProcessor.ProcessFile(String outPutFilePath)</summary>
+        </member>
+        <member name="T:TestSample.Fakes.StubIFileProcessManager">
+            <summary>Stub type of TestSample.IFileProcessManager</summary>
+        </member>
+        <member name="M:TestSample.Fakes.StubIFileProcessManager.#ctor">
+            <summary>Initializes a new instance of type StubIFileProcessManager</summary>
+        </member>
+        <member name="M:TestSample.Fakes.StubIFileProcessManager.AttachBackingFieldToFileDirectory">
+            <summary>Attaches delegates to emulate StubIFileProcessManager.FileDirectory as a property with a backing field.</summary>
+        </member>
+        <member name="M:TestSample.Fakes.StubIFileProcessManager.AttachBackingFieldToOutputFilePath">
+            <summary>Attaches delegates to emulate StubIFileProcessManager.OutputFilePath as a property with a backing field.</summary>
+        </member>
+        <member name="P:TestSample.Fakes.StubIFileProcessManager.TestSample#IFileProcessManager#FileDirectory">
+            <summary>Sets the stub of IFileProcessManager.get_FileDirectory()</summary>
+        </member>
+        <member name="F:TestSample.Fakes.StubIFileProcessManager.FileDirectoryGet">
+            <summary>Sets the stub of IFileProcessManager.get_FileDirectory()</summary>
+        </member>
+        <member name="F:TestSample.Fakes.StubIFileProcessManager.FileDirectorySetString">
+            <summary>Sets the stub of IFileProcessManager.set_FileDirectory(String value)</summary>
+        </member>
+        <member name="P:TestSample.Fakes.StubIFileProcessManager.TestSample#IFileProcessManager#OutputFilePath">
+            <summary>Sets the stub of IFileProcessManager.get_OutputFilePath()</summary>
+        </member>
+        <member name="F:TestSample.Fakes.StubIFileProcessManager.OutputFilePathGet">
+            <summary>Sets the stub of IFileProcessManager.get_OutputFilePath()</summary>
+        </member>
+        <member name="F:TestSample.Fakes.StubIFileProcessManager.OutputFilePathSetString">
+            <summary>Sets the stub of IFileProcessManager.set_OutputFilePath(String value)</summary>
+        </member>
+        <member name="M:TestSample.Fakes.StubIFileProcessManager.TestSample#IFileProcessManager#WriteToFiles">
+            <summary>Sets the stub of IFileProcessManager.WriteToFiles()</summary>
+        </member>
+        <member name="F:TestSample.Fakes.StubIFileProcessManager.WriteToFiles">
+            <summary>Sets the stub of IFileProcessManager.WriteToFiles()</summary>
+        </member>
+        <member name="T:TestSample.Fakes.StubJavaScriptFileProcessor">
+            <summary>Stub type of TestSample.JavaScriptFileProcessor</summary>
+        </member>
+        <member name="M:TestSample.Fakes.StubJavaScriptFileProcessor.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:TestSample.Fakes.StubJavaScriptFileProcessor.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:TestSample.Fakes.StubJavaScriptFileProcessor.InitializeStub">
+            <summary>Initializes a new instance of type StubJavaScriptFileProcessor</summary>
+        </member>
+        <member name="P:TestSample.Fakes.StubJavaScriptFileProcessor.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:TestSample.Fakes.StubJavaScriptFileProcessor.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="M:TestSample.Fakes.StubJavaScriptFileProcessor.NeedToProcess">
+            <summary>Sets the stub of JavaScriptFileProcessor.NeedToProcess()</summary>
+        </member>
+        <member name="F:TestSample.Fakes.StubJavaScriptFileProcessor.NeedToProcess01">
+            <summary>Sets the stub of JavaScriptFileProcessor.NeedToProcess()</summary>
+        </member>
+        <member name="M:TestSample.Fakes.StubJavaScriptFileProcessor.ProcessFile(System.String)">
+            <summary>Sets the stub of JavaScriptFileProcessor.ProcessFile(String outPutFilePath)</summary>
+        </member>
+        <member name="F:TestSample.Fakes.StubJavaScriptFileProcessor.ProcessFileString">
+            <summary>Sets the stub of JavaScriptFileProcessor.ProcessFile(String outPutFilePath)</summary>
+        </member>
+    </members>
+</doc>
